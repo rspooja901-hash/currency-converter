@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Live Currency Converter</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+
+    <h2>💱 Live Currency Converter</h2>
+
+    <input
+        type="number"
+        id="amount"
+        placeholder="Enter Amount">
+
+    <select id="from">
+        <option>USD</option>
+        <option>INR</option>
+        <option>EUR</option>
+        <option>GBP</option>
+        <option>JPY</option>
+    </select>
+
+    <select id="to">
+        <option>INR</option>
+        <option>USD</option>
+        <option>EUR</option>
+        <option>GBP</option>
+        <option>JPY</option>
+    </select>
+
+    <button onclick="convertCurrency()">
+        Convert
+    </button>
+
+    <h3 id="result"></h3>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
